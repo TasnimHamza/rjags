@@ -2,7 +2,6 @@ library(R2jags)
 help(jags)
 
 
-#######################
 #this is the data
 #######################
 mydata = list(ns=3,r=cbind(c(2,3,4),c(4,5,6)),n=cbind(c(12,13,14),c(14,15,16)))
